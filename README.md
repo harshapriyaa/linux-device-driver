@@ -96,7 +96,7 @@ modinfo pen_driver.ko
 ```
 
 ## Conclusion 
-Thought out this project we learned that loading LKMs while the kernel is running is more efficient for modules that are not used on a normal basis. This way the module does not have to be manually loaded every power up. Depending on the functionality and the number of times it may be needed should determine whether to compile the module with the kernel or to load it.
+Through out this project we learned that loading LKMs while the kernel is running is more efficient for modules that are not used on a normal basis. This way the module does not have to be manually loaded every power up. Depending on the functionality and the number of times it may be needed should determine whether to compile the module with the kernel or to load it.
 The significant advantages of LKMs have proven itself to be desired and many operating systems support them, although may be called something different depending on the system. Although they may not be the best solution in every case, it is a very popular technic. Most device driver use LKMs to tell the controller how to communicate and interact with the device.
 
 *This project was done as a learning excercise*
